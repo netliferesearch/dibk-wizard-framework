@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import get from 'lodash.get';
+import { get } from 'lodash';
 
 import StyledSum from '../../primitives/Sum';
 import SummaryDetails from './SummaryDetails';

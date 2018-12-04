@@ -1,6 +1,5 @@
 import autobind from 'react-autobind';
-import get from 'lodash.get';
-import has from 'lodash.has';
+import { get, has } from 'lodash';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 

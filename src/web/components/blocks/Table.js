@@ -1,4 +1,4 @@
-import pick from 'lodash.pick';
+import { pick } from 'lodash';
 import PropTypes from 'prop-types';
 import React from 'react';
 

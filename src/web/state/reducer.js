@@ -1,6 +1,4 @@
-import setWith from 'lodash.setwith';
-import isObject from 'lodash.isobject';
-import find from 'lodash.find';
+import { setWith, isObject, find } from 'lodash';
 
 import { NAME } from './index';
 import { SET_DATA, RESET_DATA, SHOW_RESET_MODAL } from './actions';

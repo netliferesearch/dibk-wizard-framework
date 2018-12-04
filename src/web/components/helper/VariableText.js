@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import template from 'lodash.template';
+import { template } from 'lodash';
 
 export default function VariableText({ data, text }) {
   if (!text) {

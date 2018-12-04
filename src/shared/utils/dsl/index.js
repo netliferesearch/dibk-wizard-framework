@@ -1,6 +1,6 @@
 /* eslint-disable no-use-before-define */
 
-import get from 'lodash.get';
+import { get } from 'lodash';
 import { validateExpression } from './validator';
 
 export function getValue(value, state) {
